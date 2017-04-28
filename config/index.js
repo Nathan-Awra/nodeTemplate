@@ -1,0 +1,27 @@
+
+let HTTP_PORT = process.env.HTTP_PORT || 5000;
+
+
+module.exports = {
+    // HTTP PORT
+    HTTP_PORT: HTTP_PORT,
+
+    // MONGODB URL
+    MONGODB_URL: 'mongodb://nathan:0114192930hello@ds123331.mlab.com:23331/nodetest',
+
+    // SALT VALUE LENGTH
+    SALT_LENGTH: 7,
+
+    // GENERATED TOKEN LENGTH
+    TOKEN_LENGTH: 15,
+
+    // SET THE TOKEN EXPIRATION MONTH LENGTH
+    TOKEN_EXPIRATION_MONTH : 6,
+
+    // MAXIMUM ELEMENT IN A PAGE
+    ELEMENT_IN_PAGE : 12,
+
+    // COLLECTION RETURN LIMIT
+    COLLECTION_RETURN_SIZE : 24,
+
+};

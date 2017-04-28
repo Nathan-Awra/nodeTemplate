@@ -1,0 +1,31 @@
+{
+  "name": "nodetest",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "apidoc": "^0.17.5",
+    "async": "*",
+    "bcrypt": "*",
+    "body-parser": "~1.15.2",
+    "debug": "~2.2.0",
+    "express": "*",
+    "express-validator": "*",
+    "express-unless" : "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "node-gyp": "^3.5.0",
+    "xtend" : "*"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "cheerio": "^0.22.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "rewire": "^2.5.2",
+    "sinon": "^1.17.7",
+    "supertest": "^3.0.0"
+  }
+}
